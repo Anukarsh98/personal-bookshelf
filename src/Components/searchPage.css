@@ -1,0 +1,36 @@
+.main{
+    display: flex;
+    flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .myBslf{
+    margin-left: 90px;
+
+  }
+}
+
+.myBslf{
+    background-color: rgb(58, 167, 58);
+   color: azure;
+   border-radius: 5px;
+   height: 40px;
+
+}
+
+.search{
+   width: 300px;
+   height: 30px;
+ 
+}
+.result{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 16px;
+    width: 100%;
+    max-width: 1200px;
+    box-sizing: border-box;
+   
+    
+}
